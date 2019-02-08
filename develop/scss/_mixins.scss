@@ -1,0 +1,38 @@
+@mixin ws-regular {
+	font-family: 'Work Sans';
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+}
+@mixin ws-medium {
+	font-family: 'Work Sans';
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 500;
+	font-style: normal;
+}
+@mixin ws-semibold {
+	font-family: 'Work Sans';
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 600;
+	font-style: normal;
+}
+@mixin roboto-regular {
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+}
+@mixin lora-bold {
+	font-family: 'Lora';
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 700;
+	font-style: normal;
+}
+@mixin brdr {
+	border: 1px solid red;
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<title>Taxgig</title>
+
+	<!-- Preload Fonts -->
+	<link rel="preload" href="fonts/Lora-Bold.woff" as="font">
+	<link rel="preload" href="fonts/Roboto-Regular.woff2" as="font">
+	<link rel="preload" href="fonts/WorkSans-Medium.woff2" as="font">
+	<link rel="preload" href="fonts/WorkSans-Regular.woff2" as="font">
+	<link rel="preload" href="fonts/WorkSans-SemiBold.woff2" as="font">
+	
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ____________________page-header(section_1) -->
+	<header class="page-header" id="page-header">
+		<div class="container">
+			<div class="page-header--wrap">
+				<div class="page-logo">
+					<img class="page-logo__img" src="img/header-logo.svg" alt="Taxgig logo" width="131px" height="48px">
+				</div>
+				<nav class="main-nav">
+					<img class="main-menu__logo-tablet" src="img/footer-logo.svg" alt="Taxgig logo" width="110px" height="40px">
+
+					<button class="main-menu__btn-open" type="button">
+						<span class="visually-hidden">Open menu</span>
+					</button>
+					<button class="main-menu__btn-close" type="button">
+						<span class="visually-hidden">Close menu</span>
+					</button>
+
+					<ul class="main-menu__items">
+						<li class="main-menu__item  main-menu__item--file">
+							<a href="#" class="main-menu__link">File</a>
+						</li>						
+						<li class="main-menu__item  main-menu__item--about">
+							<a href="#" class="main-menu__link">About</a>
+						</li>
+						<li class="main-menu__item  main-menu__item--blog">
+							<a href="#" class="main-menu__link">Blog</a>
+						</li>
+						<li class="main-menu__item  main-menu__item--faq">
+							<a href="#" class="main-menu__link">FAQ</a>
+						</li>
+						<li class="main-menu__item  main-menu__item--login">
+							<a href="#" class="main-menu__link  login__link">LOGIN</a>
+						</li>
+						<li class="main-menu__item  main-menu__item--bepro">
+							<a class="main-menu__link" href="#">Be a pro</a>
+						</li>
+					</ul>				
+				</nav>				
+			</div><!-- ./page-header--wrap -->
+		</div><!-- ./container -->				
+	</header>
+
+	<div class="container">
+		<div class="content--wrap">
+<!-- ____________________page-sidebar(section_2) -->
+			<aside class="page-sidebar" id="page-sidebar">
+				<nav class="sidebar-nav">
+					<ul class="sidebar-nav__items">
+						<li class="sidebar-nav__item">
+							<a class="sidebar-nav__link" href="#">Engineering</a>
+						</li>
+						<li class="sidebar-nav__item">
+							<a class="sidebar-nav__link" href="#">Design</a>
+						</li>
+						<li class="sidebar-nav__item">
+							<a class="sidebar-nav__link" href="#">Marketing</a>
+						</li>
+						<li class="sidebar-nav__item">
+							<a class="sidebar-nav__link" href="#">Other</a>
+						</li>
+					</ul>
+				</nav>
+			</aside>
+<!-- ____________________main(section_3) -->
+			<main class="main" id="main">
+				<section class="positions">
+					<a class="positions__link-careers" href="#">Careers</a>
+
+					<div class="positions__dscr--wrap">
+						<h1 class="positions__title">Engineering</h1>
+
+						<div class="positions__dscr">
+							<p class="positions__dscr-count">
+								<a class="positions__dscr-link" href="#">18</a> positions in this collection
+							</p>
+							<span class="positions__dscr-team">Taxgig team</span>
+						</div>
+					</div>
+
+					<ul class="positions__items">
+						<li class="positions__item  positions__item--active">
+							<div class="positions__item-dscr">
+								<a class="positions__link-vacancy" href="#">Senior ui/ux designer</a>
+								<span class="positions__location">Coral Gables, FL</span>
+							</div>
+							<a class="positions__link-more" href="#">LEARN MORE</a>
+						</li>
+						<li class="positions__item">
+							<div class="positions__item-dscr">
+								<a class="positions__link-vacancy" href="#">Senior ui/ux designer</a>
+								<span>Coral Gables, FL</span>
+							</div>
+							<a class="positions__link-more" href="#">LEARN MORE</a>
+						</li>
+						<li class="positions__item">
+							<div class="positions__item-dscr">
+								<a class="positions__link-vacancy" href="#">Senior ui/ux designer</a>
+								<span>Coral Gables, FL</span>
+							</div>
+							<a class="positions__link-more" href="#">LEARN MORE</a>
+						</li>
+					</ul>					
+				</section>
+			</main>
+
+		</div><!-- ./content--wrap -->
+<!-- ____________________main-ask(section_4) -->
+		<section class="main-ask">
+			<h2 class="main-ask__title">Don't see <br>how you fit in?</h2>
+			<p class="main-ask__text">No worries, get in touch and tell us more about yourself and your interests. We are always open for talented people striving to make an impact</p>
+
+			<button class="main-ask__btn-test" type="button">Test me now</button>	 
+			<button class="main-ask__btn-touch" type="button">Get in touch</button>	 
+		</section>
+	</div><!-- ./container -->
+
+<!-- ____________________footer(section_5) -->
+	<footer class="page-footer" id="page-footer">
+		<div class="container">
+			<div class="page-footer--wrap">
+
+				<div class="feedback">
+					<form class="feedback-form  form" action="#" method="POST">
+						<fieldset class="form__fieldset">
+							<legend class="form__legend">Stay in touch</legend>				
+							<label class="form__label">
+								<span class="visually-hidden">Input your email</span>
+								<input class="form__input"
+									   type="email"
+									   name="email"
+									   placeholder="helloworld@pure-agency.co" 
+									   required>
+							</label>
+						</fieldset>
+						<button class="form__btn-send" type="submit">
+							<span class="visually-hidden">Send email</span>
+						</button>
+					</form>
+
+					<div class="feedback__brand">
+						<div class="footer__logo">
+							<img class="footer__logo-img" src="img/footer-logo.svg" alt="Taxgig logo" width="112px" height="40px">
+						</div>
+
+						<p class="feedback__brand-text">Join the best online marketplace for tax preparation services</p>
+					</div>
+				</div><!-- ./feedback -->
+
+				<div class="footer-lists">
+					<div class="pages">
+						<h3 class="pages__title" id="list__title">All pages</h3>
+						<ul class="pages__items  list-items">
+							<li class="pages__item">
+								<a class="pages__link  pages__home" href="#">
+									Home
+								</a>
+							</li>
+							<li class="pages__item">
+								<a class="pages__link  link__sign-up" href="#">
+									Sign up
+								</a>
+							</li>
+							<li class="pages__item">
+								<a class="pages__link" href="#">
+									About
+								</a>
+							</li>
+							<li class="pages__item">
+								<a class="pages__link  link__blog" href="#">
+									Blog
+								</a>
+							</li>
+							<li class="pages__item">
+								<a class="pages__link" href="#">
+									Partners
+								</a>
+							</li>
+							<li class="pages__item">
+								<a class="pages__link" href="#">
+									Careers
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info">
+						<h3 class="info__title" id="list__title">Information</h3>
+						<ul class="info__items  list-items">
+							<li class="info__item">
+								<a class="info__link  info__faq" href="#">
+									FAQ
+								</a>
+							</li>
+							<li class="info__item">
+								<a class="info__link" href="#">
+									Safety
+								</a>
+							</li>
+							<li class="info__item">
+								<a class="info__link" href="#">
+									Terms of Use
+								</a>
+							</li>
+							<li class="info__item">
+								<a class="info__link" href="#">
+									Privacy Policy
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="socials">
+						<h3 class="socials__title" id="list__title">Socials</h3>
+						<ul class="socials__items  list-items">
+							<li class="socials__item">
+								<a class="socials__link" href="#">
+									Facebook
+								</a>
+							</li>
+							<li class="socials__item">
+								<a class="socials__link" href="#">
+									Google Plus
+								</a>
+							</li>
+							<li class="socials__item">
+								<a class="socials__link" href="#">
+									Twitter
+								</a>
+							</li>
+							<li class="socials__item">
+								<a class="socials__link" href="#">
+									Linkedin
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- ./footer-lists -->
+			</div><!-- ./page-footer--wrap -->
+		</div><!-- ./container -->
+		
+		<div class="rights">
+			<p class="rights__text">© 2018 <span>taxgig</span>. All rights reserved.</p>
+		</div>
+	</footer>
+
+
+	<!-- Custom JS -->
+	<script src="js/index.js"></script>
+</body>
+</html>

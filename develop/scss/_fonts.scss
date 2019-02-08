@@ -1,0 +1,61 @@
+@font-face {
+	font-display: swap;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Roboto"),
+		 local("Roboto Regular"),
+		 url("../fonts/Roboto-Regular.woff2") format("woff2"),
+		 url("../fonts/Roboto-Regular.woff") format("woff");
+}
+@font-face {
+	font-display: swap;
+	font-family: "Work Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Work Sans"),
+		 local("Work Sans Regular"),
+		 url("../fonts/WorkSans-Regular.woff2") format("woff2"),
+		 url("../fonts/WorkSans-Regular.woff") format("woff");
+}
+@font-face {
+	font-display: swap;
+	font-family: "Work Sans";
+	font-style: normal;
+	font-weight: 500;
+	src: local("Work Sans"),
+		 local("Work Sans Medium"),
+		 url("../fonts/WorkSans-Medium.woff2") format("woff2"),
+		 url("../fonts/WorkSans-Medium.woff") format("woff");
+}
+@font-face {
+	font-display: swap;
+	font-family: "Work Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Work Sans"),
+		 local("Work Sans Semibold"),
+		 url("../fonts/WorkSans-SemiBold.woff2") format("woff2"),
+		 url("../fonts/WorkSans-SemiBold.woff") format("woff");
+}
+@font-face {
+	font-display: swap;
+	font-family: "Lora";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Lora"),
+		 local("Lora Bold"),
+		 url("../fonts/Lora-Bold.woff") format("woff");
+}
+
+/* 
+100 - Thin
+200 - Extra Light, Ultra Light
+300 - Light
+400 - Normal, Book, Regular
+500 - Medium
+600 - Semi Bold, Demi Bold
+700 - Bold
+800 - Extra Bold, Ultra Bold
+900 - Black, Heavy
+*/
